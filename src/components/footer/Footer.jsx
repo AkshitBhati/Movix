@@ -5,7 +5,6 @@ import {
     FaTwitter,
     FaLinkedin,
 } from "react-icons/fa";
-import { Link } from "react-router-dom" 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 
 import "./style.scss";
@@ -38,7 +37,7 @@ const Footer = () => {
                     </span>
                     
                     <span className="icon">
-                        <Link to="https://www.linkedin.com/in/akshit-bhati-114040215"> <FaLinkedin /></Link>
+                        <FaLinkedin />
                     </span>
                 </div>
             </ContentWrapper>
